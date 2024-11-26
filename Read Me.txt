@@ -1,0 +1,41 @@
+# Adventure Quest Game
+
+## Overview
+The **Adventure Quest Game** is an interactive text-based game where players make decisions at various stages of an adventure. The outcome of each decision is influenced by probabilities, which are modeled using a Markov Network. Players' choices lead to different outcomes in the story, offering a dynamic and engaging gameplay experience.
+
+## Features
+- Dynamic story progression based on player decisions.
+- Markov Network-based decision-making system.
+- Multiple decision points with varying probabilities of success or failure.
+- Randomized outcomes to make each playthrough unique.
+
+## Installation
+
+1. Clone the repository to your local machine:
+git clone: https://github.com/saminshams11/GIT_440_GRP12
+2. Install required dependencies:
+
+## How to Play
+
+1. After installing the dependencies, run the `adventure_quest_game.py` script to start the game.
+
+2. The game will present you with different decision points. Input your choice (e.g., "1" or "2") when prompted.
+
+3. The game will randomly determine the outcome of each decision based on predefined probabilities and print the result of your actions.
+
+4. Continue making decisions until you reach the end of the game.
+
+## Dependencies
+- `numpy`
+- `pgmpy` (for probabilistic graphical model handling)
+
+You can install these dependencies using the following command:
+pip install numpy pgmpy
+
+## Contribution
+
+Feel free to fork this repository, create pull requests, or report issues. Contributions are welcome!
+
+## Acknowledgements
+- `pgmpy` library for creating and manipulating probabilistic graphical models.
+- Numpy for handling numerical operations.
